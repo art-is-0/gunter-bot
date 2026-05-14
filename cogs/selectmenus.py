@@ -16,7 +16,7 @@ class ClassesMenu(discord.ui.Select):
         for i in range(len(values)):
             match values[i]:
                 case 'MAT1100':
-                    role = interaction.guild.get_role()
+                    role = interaction.guild.get_role(1146516169797419132)
                     await interaction.user.add_roles(role)
                     # await interaction.channel.send(content="MAT1100")
                     
